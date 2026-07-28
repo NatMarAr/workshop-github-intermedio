@@ -34,5 +34,6 @@ jobs:
       - name: Escribir en el resumen del run
         run: |
           echo "### Mi primer workflow" >> "$GITHUB_STEP_SUMMARY"
+          prueba argumento
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "Ejecutado por **$GITHUB_ACTOR** sobre la rama \`$GITHUB_REF_NAME\`." >> "$GITHUB_STEP_SUMMARY"
